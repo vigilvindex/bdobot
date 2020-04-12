@@ -29,6 +29,12 @@ node dbInit.js
 node .
 ```
 
+## Add Bot To Discord Link
+
+Replace CLIENTID with your ID from Discord Developers Application Dashboard found here: [https://discordapp.com/developers/applications/](https://discordapp.com/developers/applications/)
+
+[https://discordapp.com/oauth2/authorize?client_id=CLIENTID&scope=bot](https://discordapp.com/oauth2/authorize?client_id=CLIENTID&scope=bot)
+
 ## Links
 
 * [Discord](https://discordapp.com/)
