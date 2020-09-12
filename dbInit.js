@@ -12,7 +12,7 @@ const sequelize = new Sequelize('database', 'username', 'password', {
     dialect: 'sqlite',
     logging: false,
     storage: 'bdobot.sqlite',
-    operatorsAliases: false,
+    //operatorsAliases: false,
 });
 
 sequelize.import('models/GearList');

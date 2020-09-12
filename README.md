@@ -22,8 +22,9 @@ A [Discord](https://discordapp.com/) Bot for the game [Black Desert Online](http
 ## Installation
 
 ```sh
-cd bdobot
-echo $'{"prefix": "!bdo ","token": "put-your-token-here"}' > config.json
+git clone https://github.com/vigilvindex/VVBDOBOT.git
+cd VVBDOBOT
+echo '{"prefix": "!bdo ","token": "put-your-token-here"}' > config.json
 npm install
 node dbInit.js
 node .
