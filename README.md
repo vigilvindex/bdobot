@@ -23,7 +23,7 @@ A [Discord](https://discordapp.com/) Bot for the game [Black Desert Online](http
 
 ```sh
 cd bdobot
-echo $'{\n\t"prefix": "!bdo ",\n\t"token": "put-your-token-here"\n}' > config.json
+echo $'{"prefix": "!bdo ","token": "put-your-token-here"}' > config.json
 npm install
 node dbInit.js
 node .

@@ -6,23 +6,27 @@
  * @version 0.0.1
  */
 module.exports = (sequelize, DataTypes) => {
-    return sequelize.define('newsitems', {
-        id: {
-            type: DataTypes.INTEGER,
-            primaryKey: true,
-            allowNull: false,
-            autoIncrement: true,
-        },
-        value: {
-            type: DataTypes.STRING,
-            allowNull: false,
-            defaultValue: '0',
-        },
-    }, {
-        tableName: 'newsitems',
-        timestamps: true,
-        createdAt: 'created',
-        updatedAt: 'updated',
-        underscored: true,
-    });
+  return sequelize.define(
+    "newsitems",
+    {
+      id: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        allowNull: false,
+        autoIncrement: true
+      },
+      value: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        defaultValue: "0"
+      }
+    },
+    {
+      tableName: "newsitems",
+      timestamps: true,
+      createdAt: "created",
+      updatedAt: "updated",
+      underscored: true
+    }
+  );
 };

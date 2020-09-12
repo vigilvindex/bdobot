@@ -6,6 +6,8 @@
  * @version 0.0.1
  */
 module.exports = (client, member) => {
-    const guild = member.guild;
-    guild.channels.find('name', 'zone-de-transit').send(`<@${member.user.id}> has left the server!`);
+  const guild = member.guild;
+  guild.channels
+    .find("name", "zone-de-transit")
+    .send(`<@${member.user.id}> has left the server!`);
 };
