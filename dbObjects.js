@@ -11,8 +11,8 @@ const sequelize = new Sequelize("database", "username", "password", {
   host: "localhost",
   dialect: "sqlite",
   logging: false,
-  storage: "bdobot.sqlite",
-  operatorsAliases: false
+  storage: "bdobot.sqlite"
+  //operatorsAliases: false
 });
 
 const GearList = sequelize.import("models/GearList");
